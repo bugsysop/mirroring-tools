@@ -1,4 +1,4 @@
 mirroring-tools
 ===============
 
-Command line script for mass mirroring web sites
+Command line PHP scripts for mass mirroring web sites.
