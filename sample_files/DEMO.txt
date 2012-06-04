@@ -1,0 +1,71 @@
+(root@wikileaks.lu)(~)$ php sync.php  
+
+                212.12.104.215: 05.12.2010 19:33:26
+                213.251.145.96: 05.12.2010 20:54:22
+                     46.59.1.2: 05.12.2010 20:54:22
+                  79.159.1.172: 03.12.2010 13:14:38
+                95.142.170.212: 05.12.2010 21:31:57
+                  azow.selb.us: 05.12.2010 10:48:42
+                  brd.mcbf.net: 04.12.2010 19:45:11
+         cablegate.dyndns.info: 04.12.2010 19:45:11
+           cablegate.failar.nu: 07.10.2010 23:12:51
+
+                         [ ... ]
+
+               www.fahrplan.nl: 08.04.2010 13:20:13
+               www.gruiiik.org: 04.12.2010 19:45:11
+       www.wikileaks.djity.net: 05.12.2010 11:28:01
+
+DONE. The most up-to-date server is: wikileaks.g33kthug.co.uk (06.12.2010 00:01:48)
+
+Will start mirroring wikileaks.g33kthug.co.uk to ./output in 5 seconds using command:
+/usr/bin/wget -nH --convert-links --no-parent  -P ./output -mirror http://wikileaks.g33kthug.co.uk
+
+Last chance to press CTRL+C...
+
+Executing: /usr/bin/wget -nH --convert-links --no-parent  -P ./output -mirror http://wikileaks.g33kthug.co.uk
+
+--2010-12-06 00:02:03--  http://wikileaks.g33kthug.co.uk/
+Resolving wikileaks.g33kthug.co.uk... 89.234.8.153
+Connecting to wikileaks.g33kthug.co.uk|89.234.8.153|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5958 (5.8K) [text/html]
+Saving to: `./output/index.html'
+
+100%[===================================================================================================>] 5,958       --.-K/s   in 0.01s   
+
+2010-12-06 00:02:03 (561 KB/s) - `./output/index.html' saved [5958/5958]
+
+Loading robots.txt; please ignore errors.
+--2010-12-06 00:02:03--  http://wikileaks.g33kthug.co.uk/robots.txt
+Connecting to wikileaks.g33kthug.co.uk|89.234.8.153|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2010-12-06 00:02:04 ERROR 404: Not Found.
+
+--2010-12-06 00:02:04--  http://wikileaks.g33kthug.co.uk/img/favicon.ico
+Connecting to wikileaks.g33kthug.co.uk|89.234.8.153|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1406 (1.4K) [text/plain]
+Saving to: `./output/img/favicon.ico'
+
+100%[===================================================================================================>] 1,406       --.-K/s   in 0s      
+
+2010-12-06 00:02:04 (11.8 MB/s) - `./output/img/favicon.ico' saved [1406/1406]
+
+--2010-12-06 00:02:04--  http://wikileaks.g33kthug.co.uk/css/css.css
+Connecting to wikileaks.g33kthug.co.uk|89.234.8.153|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6644 (6.5K) [text/css]
+Saving to: `./output/css/css.css'
+
+100%[===================================================================================================>] 6,644       --.-K/s   in 0.01s   
+
+2010-12-06 00:02:04 (641 KB/s) - `./output/css/css.css' saved [6644/6644]
+
+--2010-12-06 00:02:04--  http://wikileaks.g33kthug.co.uk/js/twitter.js
+Connecting to wikileaks.g33kthug.co.uk|89.234.8.153|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 14517 (14K) [application/x-javascript]
+Saving to: `./output/js/twitter.js'
+
+[ ... ]
